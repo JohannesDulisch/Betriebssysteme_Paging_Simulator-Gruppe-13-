@@ -24,19 +24,14 @@ Die Simulation berücksichtigt zentrale Betriebssystemkomponenten wie:
 
 Folgende Algorithmen wurden implementiert und können evaluiert werden:
 
-+-------------------------+-----------------------------------------------------------------------+
-| Algorithmus             | Beschreibung                                                          |
-+-------------------------+-----------------------------------------------------------------------+
-| Not Recently Used (NRU) | Klassifiziert Seiten anhand von Referenz- und Modifikationsbits       |
-| First In First Out      | Ersetzt die älteste Seite im Speicher                                 |
-| (FIFO)                  |                                                                       |
-| Second Chance           | Erweiterung von FIFO mit zusätzlichem Referenz-Bit                    |
-| Least Recently Used     | Ersetzt die Seite mit der ältesten Nutzung                            |
-| (LRU)                   |                                                                       |
-| Not Frequently Used     | Ersetzt Seiten mit geringer Zugriffshäufigkeit                        |
-| (NFU)                   |                                                                       |
-| NFU mit Aging           | Verfeinerung von NFU durch zeitliche Gewichtung der Zugriffshäufigkeit|
-+-------------------------+-----------------------------------------------------------------------+
+| Algorithmus                 | Beschreibung                                                                  |
+|-----------------------------|-------------------------------------------------------------------------------|
+| Not Recently Used (NRU)     | Klassifiziert Seiten anhand von Referenz- und Modifikationsbits               |
+| First In First Out (FIFO)   | Ersetzt die älteste Seite im Speicher                                         |
+| Second Chance               | Erweiterung von FIFO um ein zusätzliches Referenz-Bit                          |
+| Least Recently Used (LRU)   | Ersetzt die Seite mit der ältesten Nutzung                                    |
+| Not Frequently Used (NFU)   | Ersetzt Seiten mit geringer Zugriffshäufigkeit                                |
+| NFU mit Aging               | Verfeinerung von NFU durch zeitliche Gewichtung der Zugriffshäufigkeit        |
 
 
 
