@@ -36,14 +36,22 @@ Folgende Algorithmen wurden implementiert und können evaluiert werden:
 
 
 
+
 ## Projektstruktur
 
 Die wichtigsten Dateien und Ordner:
 
-- BS_Paging_Simulator.zip → C++ Projektdateien 
-- Doxygen.zip → Vollständige Doxygen-Dokumentation 
-- Verständliche Erklärung.pdf → Projektbeschreibung & Hintergrund 
-- Compilieren_Bedienen.pdf → Anleitung zum Kompilieren & Ausführen
+- [BS_Paging_Simulator.zip](./BS_Paging_Simulator.zip)  
+  C++-Projektdateien mit Quellcode und Build-Skripten
+
+- [Doxygen.zip](./Doxygen.zip)  
+  Vollständige Doxygen-Dokumentation
+
+- [Verständliche Erklärung des Projekts.pdf](./Verständliche%20Erklärung%20des%20Projekts.pdf)  
+  Ausführliche Projektbeschreibung und Hintergrund
+
+- [Bedienungsanleitung des Projektes Compilieren_Bedienen.pdf](./Bedienungsanleitung%20des%20Projektes%20Compilieren_Bedienen.pdf)  
+  Anleitung zum Kompilieren und Ausführen des Simulators
 
 
 
